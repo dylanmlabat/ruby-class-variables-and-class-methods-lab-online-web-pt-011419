@@ -20,9 +20,9 @@ class Song
   
   def self.artists
     array = []
-    @@artists.each do |artist|
-      if array.include?(artist)
-        array << artist
+    @@artists.each do |x|
+      if array.include?(x)
+        array << x
       end
     end
     array
